@@ -13,7 +13,9 @@ function createWindow () {
   })
 
   const menuContent = Menu.buildFromTemplate([{
-    label:'Ola', click(){console.log("Clicado")}
+    label:'Menu', click(){
+      mainWindow.loadFile('index.html')
+     }
   }]);
   Menu.setApplicationMenu(menuContent);
 
