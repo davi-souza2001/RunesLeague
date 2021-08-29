@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/Clock.icns --out=packages"
   },
   "license": "MIT",
   "dependencies": {
