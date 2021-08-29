@@ -4,7 +4,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "npx electron-packager . --icon assets/Clock.icns --out=packages"
+    "build": "npx electron-packager . --icon assets/icontwo.png --out=packages"
   },
   "license": "MIT",
   "dependencies": {
