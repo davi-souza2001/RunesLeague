@@ -16,7 +16,7 @@ function createWindow () {
   Menu.setApplicationMenu(menuContent);
 
   // and load the index.html of the app.
-  mainWindow.loadURL('https://www.leagueofgraphs.com/pt/champions/runes/ekko');
+  mainWindow.loadFile('index.html');
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
