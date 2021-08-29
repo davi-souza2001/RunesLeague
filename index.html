@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <script src="src/scripts.js" defer></script>
     <title>Runes League</title>
 </head>
+
 <body>
     <div class="content">
         <h1>Welcome to Runes League !</h1>
@@ -16,5 +18,11 @@
             <input type="submit" class="formcontentsubmit" onclick="getchamp(event)">
         </form>
     </div>
+
+    <script type="module">
+        import { App } from './src/App.js'
+        App.start()
+    </script>
 </body>
+
 </html>

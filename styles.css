@@ -21,8 +21,9 @@ form{
 }
 
 .content .formcontenttext{
-    height: 6vh;
+    height: 9vh;
     border: none;
+    outline: none;
     border-radius: 10px;
     background-color: #382e4d;
     font-weight: bold;
@@ -30,9 +31,10 @@ form{
 }
 
 .content .formcontentsubmit{
-    height: 6vh;
-    width: 5vw;
+    height: 9vh;
+    width: 7vw;
     border: none;
+    outline: none;
     border-radius: 10px;
     background-color: #382e4d;
     font-weight: bold;
